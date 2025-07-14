@@ -1,0 +1,35 @@
+header{
+    display: grid;
+    font-size: xx-large;
+    text-align: center;
+    background-color: #00cccc;
+    border-radius: 15px;
+}
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18,50px);
+    gap: 10px; 
+    padding: 10px;
+    background-color: #001f1f;
+}
+
+.element {
+    background-color: #005757;
+    border: 2px solid #00cccc;
+    color: white;
+    font-size: larger;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 14px;
+}
+
+.element:hover {
+    background-color: #00cccc;
+    color:black;
+    font-size: x-large;
+}
+
+body{
+    background-color: #001f1f;
+}
